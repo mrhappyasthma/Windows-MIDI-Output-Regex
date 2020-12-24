@@ -1,8 +1,17 @@
-# Windows-MIDI-Output-Regex
-A regex for Windows 7/10 to default MIDI files to output to USB. This is useful for my player piano.
+# Windows MIDI Output Registry
+
+A regex for Windows 7 to default MIDI files to output to USB. This is useful for my player piano.
 
 If the PC is playing the track instead of outputting it to MIDI, you need to update the default MIDI
 output device in the registry.
+
+## Using the file
+
+Just download and execute the `MIDI Output.reg` file. It should do all the work for you.
+
+Then open the `.midi` file using Windows Media Player.
+
+## Background
 
 This file edits the following path:
 
